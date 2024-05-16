@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-image: url(./img/samuel-sng-ui5jOU-MTWQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: aliceblue;
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.container-form{
+    border: thistle 2px solid;
+    border-radius: 20px;
+    background-color: #131313;
+    padding: 30px 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input{
+    color: whitesmoke;
+    background-color: #131313;
+    border: thistle 1px solid;
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 400px;
+    
+    font-size: large;
+}
+
+::-ms-reveal {
+    filter: invert(1);
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.input:hover{
+    border: rebeccapurple 1px solid;
+}
+
+input:focus{
+    outline-width: 0;
+    border: rebeccapurple 1px solid;
+}
+
+@media only screen and (max-width: 520px) {
+
+    .container-form{
+        width: 100%;
+        padding: 15 0;
+    }
+
+    .input{
+        width: 80vw;
+    }
+}
+
+.recuerdame{
+    display: flex;
+    gap: 10px;
+    padding: 0 2%;
+}
+
+button{
+    padding: 13px 25px;
+    background-color: rebeccapurple;
+    border: thistle 1px solid;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: blueviolet;
+}
